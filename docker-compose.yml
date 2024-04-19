@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+
+  tests:
+    build: .
+    command: python -m unittest discover -s tests
+    depends_on:
+      - web
