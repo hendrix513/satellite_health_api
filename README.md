@@ -1,5 +1,7 @@
 # satellite_health_api
 
+Flask app allowing a user to query the state of a satellite in space
+
 Dependencies:
   Docker must be installed and running, and Docker Compose installed
 
